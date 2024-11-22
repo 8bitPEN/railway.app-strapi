@@ -5,7 +5,8 @@ export interface ApiEventEvent extends Struct.CollectionTypeSchema {
   info: {
     singularName: 'event';
     pluralName: 'events';
-    displayName: 'event';
+    displayName: 'Event';
+    description: '';
   };
   options: {
     draftAndPublish: true;
